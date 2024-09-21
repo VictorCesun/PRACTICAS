@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Encabezado */
+header h1 {
+    font-size: 28px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+/* Gestor de tareas */
+.task-manager {
+    background-color: #c5e1a5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input de tarea */
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Botón de agregar tarea */
+#addTaskBtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addTaskBtn:hover {
+    background-color: #388e3c;
+}
+
+/* Lista de tareas */
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#taskList li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botón para eliminar tarea */
+.deleteBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: #c62828;
+}
+
+/* Mensaje de confirmación */
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00796b;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #757575;
+}
