@@ -1,6 +1,6 @@
 <?php
 // Definir una variable con tu nombre completo
-$nombre_completo = "Victor Alberto Blanco Figueroa";  // Cambia este valor por tu nombre completo
+$nombre_completo = "Victor Alberto Blanco Figueroa";
 
 // Mostrar el número de caracteres que tiene el nombre
 echo "Número de caracteres: " . strlen($nombre_completo) . "\n";
